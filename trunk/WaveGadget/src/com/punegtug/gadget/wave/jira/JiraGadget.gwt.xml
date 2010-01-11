@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 1.7.0//EN" "http://google-web-toolkit.googlecode.com/svn/tags/1.7.0/distro-source/core/src/gwt-module.dtd">
+  <module rename-to='jiragadget'>
+  <inherits name="com.google.gwt.user.User" />
+  <inherits name="com.google.gwt.gadgets.Gadgets" />
+  <inherits name='org.cobogw.gwt.waveapi.gadget.WaveGadget' />
+  <inherits name='com.extjs.gxt.ui.GXT'/>
+  <inherits name="com.google.gwt.http.HTTP" /> 
+  <stylesheet src="http://jirawave.appspot.com/resources/css/gxt-all.css" />
+  <script src="http://jirawave.appspot.com/resources/flash/swfobject.js"></script>
+   
+  <entry-point class='com.punegtug.gadget.wave.jira.client.SimpleGadget'/>
+</module>
